@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-indice{
+    margin-left: 20px;
+    padding: 10px;
+}
