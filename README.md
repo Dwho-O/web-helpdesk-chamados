@@ -9,6 +9,6 @@ Permissões:
 // 2 - suporte
 // 3 - usuário
 
-<h1>Modelo de Entidade e Relacionamento - MER</h1>
+Modelo de Entidade e Relacionamento - MER
 <br>
 ![Modelo de Entidade e Relacionamento - MER](https://github.com/Dwho-O/web-helpdesk-chamados/blob/main/MER.png)
