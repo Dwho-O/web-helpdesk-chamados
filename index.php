@@ -1,3 +1,8 @@
+<?php 
+    //instancia o arquivo de classe com métodos
+    require_once('./metodos/conexao.php');
+    require_once('./metodos/classes.php');
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -28,7 +33,7 @@
             <article class="estrutura-postagem">
                 <!-- informações da postagem -->
                 <section class="conteudo-postagem">
-
+                <?php echo metodos_poo::$conexao; ?>
                 </section>
                 <!-- menu lateral destinado a postagens recentes -->
                 <aside class="menu-lateral">
