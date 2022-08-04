@@ -1,13 +1,13 @@
 # web-helpdesk-chamados
 
 Tabelas:
-usuario: idUsuario, nome e foto;
-usuario_login: idUsuarioLogin, email e senha;
-usuario_cargo: idUsuarioCargo e cargo;
-usuario_area: idUsuarioArea e area;
-usuario_status: idUsuarioStatus e status;
-chamado: idChamado, titulo, data, mensagem, evidencia e comentario;
-chamado_status: idChamadoStatus, status_chamado;
+-usuario: idUsuario, nome e foto;
+-usuario_login: idUsuarioLogin, email e senha;
+-usuario_cargo: idUsuarioCargo e cargo;
+-usuario_area: idUsuarioArea e area;
+-usuario_status: idUsuarioStatus e status;
+-chamado: idChamado, titulo, data, mensagem, evidencia e comentario;
+-chamado_status: idChamadoStatus, status_chamado;
 
 Alerta: ler chamados novos<br>
 Permissões:
