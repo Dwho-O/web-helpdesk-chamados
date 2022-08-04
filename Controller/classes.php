@@ -1,5 +1,5 @@
 <?php
-    class metodos_poo{
+    class BancoHelpdesk{
         //atributos
         private $hostname;
         private $username;

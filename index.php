@@ -1,7 +1,7 @@
 <?php 
     //instancia o arquivo de classe com métodos
-    require_once('./metodos/conexao.php');
-    require_once('./metodos/classes.php');
+    require_once('/Controller/conexao.php');
+    //require_once('//metodos/classes.php');
 ?>
 <!DOCTYPE html>
 <html>
