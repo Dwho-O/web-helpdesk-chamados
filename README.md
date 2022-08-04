@@ -8,3 +8,5 @@ Permissões:
 // 1 - administrador
 // 2 - suporte
 // 3 - usuário
+
+MER.png
