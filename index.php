@@ -15,7 +15,19 @@
             <li class="nav-indice" id="li-entrar"><a href="#">Entrar</a></li>
             <li class="nav-indice" id="li-registrar"><a href="#">Registrar-se</a></li>
         </nav>
-        
+        <main class="estrutura-principal">
+            <article class="estrutura-postagem">
+                <section class="conteudo-postagem">
+
+                </section>
+                <aside class="menu-lateral">
+
+                </aside>
+            </article>
+        </main>
+        <footer class="menu-inferior">
+            
+        </footer>
     </body>
     <footer>
         
