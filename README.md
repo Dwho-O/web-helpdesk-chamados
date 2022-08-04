@@ -1,8 +1,14 @@
 # web-helpdesk-chamados
 
-Cadastro de usuários: nome, e-mail, cargo, área, senha, foto, status<br>
-Chamados: usuário, título, mensagem, print, status, comentários<br>
-Cargo: permissão<br>
+Tabelas:
+usuario: idUsuario, nome e foto;
+usuario_login: idUsuarioLogin, email e senha;
+usuario_cargo: idUsuarioCargo e cargo;
+usuario_area: idUsuarioArea e area;
+usuario_status: idUsuarioStatus e status;
+chamado: idChamado, titulo, data, mensagem, evidencia e comentario;
+chamado_status: idChamadoStatus, status_chamado;
+
 Alerta: ler chamados novos<br>
 Permissões:
 // 1 - administrador
