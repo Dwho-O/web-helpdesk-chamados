@@ -9,4 +9,4 @@ Permissões:
 // 2 - suporte
 // 3 - usuário
 
-MER.png
+![Modelo de Entidade e Relacionamento - MER](https://github.com/Dwho-O/web-helpdesk-chamados/blob/main/MER.png)
