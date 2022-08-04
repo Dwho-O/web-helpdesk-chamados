@@ -17,9 +17,9 @@
         //cria a conexão com o banco de dados
         public function conexao(){
             try{
-                $conexao = new PDO("mysql:host=$this->hostname;dbname=$this->database;", $this->username;$this->password);
+                $conexao = new PDO("mysql:host=$this->hostname;dbname=$this->database", $this->username, $this->password);
                 $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                $this->conexao->$conexao;
+                $this->conexao = $conexao;
             }catch(PDOException $e){
                 echo "Não foi possível estabelecer conexão! Erro: ". $e->getMessage();
             }

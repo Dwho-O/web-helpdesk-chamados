@@ -1,7 +1,9 @@
-<?php 
+<?php
+    ini_set('display_errors',1);
+    ini_set('display_startup_erros',1);
+    error_reporting(E_ALL);
     //instancia o arquivo de classe com métodos
-    require_once('/Controller/conexao.php');
-    //require_once('//metodos/classes.php');
+    require('Controller/conexao.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,7 +35,7 @@
             <article class="estrutura-postagem">
                 <!-- informações da postagem -->
                 <section class="conteudo-postagem">
-                <?php echo metodos_poo::$conexao; ?>
+                <?php echo IncluirUsuario; ?>
                 </section>
                 <!-- menu lateral destinado a postagens recentes -->
                 <aside class="menu-lateral">

@@ -1,6 +1,6 @@
 <?php
-    require_once ('./classes.php');
+    require('metodo.php');
     $bancodedados = new BancoHelpdesk("localhost", "root", "", "helpdesk");
     $bancodedados->conexao();
-    echo $bancodedados;
+    
 ?>
