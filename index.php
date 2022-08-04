@@ -17,9 +17,9 @@
 
         <!-- menu com os elementos da página -->
         <nav class="navbar-menu">
-            <li class="nav-indice" id="li-inicio"><a href="#">Início</a></li>
-            <li class="nav-indice" id="li-entrar"><a href="#">Entrar</a></li>
-            <li class="nav-indice" id="li-registrar"><a href="#">Registrar-se</a></li>
+            <a class="nav-indice" id="a-inicio" href="/html/">Início</a>
+            <a class="nav-indice" id="a-entrar" href="/css/">Entrar</a>
+            <a class="nav-indice" id="a-registrar" href="/js/">Registrar-se</a>
         </nav>
 
         <!-- corpo do site principal -->
