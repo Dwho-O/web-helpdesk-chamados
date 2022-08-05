@@ -22,7 +22,8 @@ require('Controller/conexao.php');
 <body>
     <!-- logo do site -->
     <header class="logo-site">
-        <img src="" alt="Imagem da logo do site, ela tem uma borda em forma de um círculo de cor preta e dentro do círculo tem uma letra 'H' preta que simboliza H de Helpdesk">
+        <img src=""
+            alt="Imagem da logo do site, ela tem uma borda em forma de um círculo de cor preta e dentro do círculo tem uma letra 'H' preta que simboliza H de Helpdesk">
     </header>
 
     <!-- menu com os elementos da página -->
@@ -46,7 +47,9 @@ require('Controller/conexao.php');
                     echo '<tr>';
                     echo '<td> usuarioID:' . $row["idUsuario"] . '</td><br>';
                     echo '<td>Nome:' . $row["nome"] . '</td><br>';
-                    echo '<td>Foto:' . $row["foto"] . '</td><br>';
+                    echo '<figure>';
+                    echo '<td>Foto:<br>' . '<img src="' . $row["foto"] . '" alt="teste" width="10%">'.'</td><br>';
+                    echo '<figure>';
                     echo '</tr>';
                 }
                 ?>
