@@ -1,4 +1,5 @@
 <?php
+
     class BancoHelpdesk{
         //atributos
         private $hostname;
