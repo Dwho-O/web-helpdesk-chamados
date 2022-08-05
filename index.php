@@ -44,13 +44,13 @@ require('Controller/conexao.php');
                 $sth = $bancodedados->conexao->prepare($sql);
                 $sth->execute();
                 while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
-                    echo '<tr>';
+                    echo '<tr><center>';
                     echo '<td> usuarioID:' . $row["idUsuario"] . '</td><br>';
                     echo '<td>Nome:' . $row["nome"] . '</td><br>';
                     echo '<figure>';
                     echo '<td>Foto:<br>' . '<img src="' . $row["foto"] . '" alt="teste" width="10%">'.'</td><br>';
                     echo '<figure>';
-                    echo '</tr>';
+                    echo '</center></tr>';
                 }
                 ?>
             </section>
