@@ -6,7 +6,8 @@
     - usuario_cargo: idUsuarioCargo e cargo;<br>
     - usuario_area: idUsuarioArea e area;<br>
     - usuario_status: idUsuarioStatus e status;<br>
-    - chamado: idChamado, titulo, data, mensagem, evidencia e comentario;<br>
+    - chamado: idChamado, titulo, data, mensagem, evidencia<br>
+    - chamado_comentario: idChamadoComentario, comentario<br>
     - chamado_status: idChamadoStatus, status_chamado;<br>
     <br>
 
