@@ -1,11 +1,11 @@
 <!-- logo do site -->
 <header class="logo-site">
-    <img src="" alt="Imagem da logo do site, ela tem uma borda em forma de um círculo de cor preta e dentro do círculo tem uma letra 'H' preta que simboliza H de Helpdesk">
+    <img class="logo-site-img" src=".../../img/logo.png" alt="Imagem da logo do site, ela tem uma borda verde em forma de um quadrado com bordas círculares de cor verde e abaixo tem o texto Helpdesk escrito em cor preta.">
 </header>
 
 <!-- menu com os elementos da página -->
 <nav class="navbar-menu">
-    <a class="nav-indice" id="a-inicio" href="/html/">Início</a>
-    <a class="nav-indice" id="a-entrar" href="/css/">Entrar</a>
-    <a class="nav-indice" id="a-registrar" href="/js/">Registrar-se</a>
+    <a class="nav-indice" id="a-inicio" href="/index.php">Início</a>
+    <a class="nav-indice" id="a-entrar" href="/entrar.php">Entrar</a>
+    <a class="nav-indice" id="a-registrar" href="/regristrar.php">Registrar-se</a>
 </nav>
