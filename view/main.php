@@ -5,15 +5,15 @@
         <!-- informações da postagem -->
         <section class="conteudo-postagem">
             <?php
-            $sql = "SELECT * FROM usuario;";
+            $sql = "SELECT * FROM chamado;";
             $sth = $bancodedados->conexao->prepare($sql);
             $sth->execute();
             while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
                 echo '<tr><center>';
-                echo '<td> usuarioID:' . $row["idUsuario"] . '</td><br>';
-                echo '<td>Nome:' . $row["nome"] . '</td><br>';
+                echo '<td> chamadoID:' . $row["idChamado"] . '</td><br>';
+                echo '<td>Título:' . $row["titulo"] . '</td><br>';
                 echo '<figure>';
-                echo '<td>Foto:<br>' . '<img src="' . $row["foto"] . '" alt="teste" width="10%">' . '</td><br>';
+                echo '<td>Evidência:<br>' . '<img src="' . $row["evidencia"] . '" alt="teste" width="100px">' . '</td><br>';
                 echo '<figure>';
                 echo '</center></tr>';
             }

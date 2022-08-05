@@ -86,4 +86,4 @@ INSERT INTO `usuario_cargo` (`idUsuarioCargo`, `cargo`) VALUES (NULL, 'administr
 INSERT INTO `usuario_login` (`idUsuarioLogin`, `email`, `senha`) VALUES (NULL, 'joao@gmail.com', 'fowojdo');
 
 INSERT INTO `usuario_status` (`idUsuarioStatus`, `status`) VALUES (NULL, 'ativo');
-INSERT INTO `usuario` (`idUsuario`, `nome`, `foto`) VALUES ('1', 'João Paulo', 'https://www.w3schools.com/howto/img_avatar.png');
+INSERT INTO `usuario` (`idUsuario`, `nome`, `foto`) VALUES (NULL, 'João Paulo', 'https://www.w3schools.com/howto/img_avatar.png');

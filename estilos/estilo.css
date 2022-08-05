@@ -12,3 +12,34 @@
     margin-left: 20px;
     padding: 10px;
 }
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav-indice{
+    text-decoration: none;
+}
+
+.nav-indice:hover {
+    color: rgb(255, 0, 212);
+}
+
+.logo-site-img{
+    width: 100px;
+    margin: 20px;
+}
+
+.estrutura-principal {
+    margin: 50px;
+}
+
+.conteudo-postagem {
+    display: flex;
+}
+
+.navbar-menu {
+    
+}
