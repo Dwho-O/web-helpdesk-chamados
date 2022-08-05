@@ -7,7 +7,7 @@ require('Controller/conexao.php');
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <?php require_once('./view/head.php'); ?>
 
 <body>

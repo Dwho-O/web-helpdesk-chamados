@@ -1,5 +1,6 @@
 <head>
     <meta charset="UTF-8">
+    <title>Início - helpdesk</title>
     <meta name="description" content="Site para abertura de chamados Helpdesk">
     <meta name="keywords" content="chamados, helpdesk, suporte técnico">
     <meta name="author" content="João Paulo">
