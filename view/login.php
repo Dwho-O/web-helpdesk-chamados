@@ -31,7 +31,7 @@
 
     <main class="main-login">
 
-        <form class="form-login" method="GET" action="">
+        <form class="form-login" method="GET" action="/web-helpdesk-chamados/view/login.php">
             <label for="txtEmail">E-mail:</label>
             <input class="txtEmail" id="txtEmail" type="text">
             <label for="txtSenha">Senha:</label>
@@ -39,6 +39,11 @@
             <input class="btnEnviar" type="submit" value="Enviar">
         </form>
     </main>
+
+    <?php
+        $email = $_GET['txtEmail'];
+        echo $email;
+    ?>
 </body>
 <footer>
     <?php require_once('footer.php'); ?>
