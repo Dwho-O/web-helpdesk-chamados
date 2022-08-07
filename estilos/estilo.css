@@ -34,10 +34,24 @@
 
 .estrutura-principal {
     margin: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .conteudo-postagem {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.estrutura-postagem {
+    margin: 10px;
+}
+
+.box-chamado{
+    margin: 20px;
 }
 
 .navbar-menu {

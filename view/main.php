@@ -9,13 +9,15 @@
             $sth = $bancodedados->conexao->prepare($sql);
             $sth->execute();
             while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
+                echo '<section class="box-chamado">';
                 echo '<tr><center>';
                 echo '<td> chamadoID:' . $row["idChamado"] . '</td><br>';
-                echo '<td>Título:' . $row["titulo"] . '</td><br>';
+                echo '<td>Título:<br>' . $row["titulo"] . '</td><br>';
                 echo '<figure>';
                 echo '<td>Evidência:<br>' . '<img src="' . $row["evidencia"] . '" alt="teste" width="100px">' . '</td><br>';
                 echo '<figure>';
                 echo '</center></tr>';
+                echo '</section>';
             }
             ?>
         </section>
