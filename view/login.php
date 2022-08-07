@@ -14,19 +14,31 @@
 
 <body>
     <!-- logo do site -->
-    <header class="logo-site">
-        <a href="../index.php">
-            <img class="logo-site-img" src="../img/logo.png" alt="Imagem da logo do site, ela tem uma borda verde em forma de um quadrado com bordas círculares de cor verde e abaixo tem o texto Helpdesk escrito em cor preta.">
-        </a>
-    </header>
+    <main class="main-menu">
+        <header class="header-site">
+            <a href="../index.php">
+                <img class="logo-site-img" src="../img/logo.png" alt="Imagem da logo do site, ela tem uma borda verde em forma de um quadrado com bordas círculares de cor verde e abaixo tem o texto Helpdesk escrito em cor preta.">
+            </a>
+        </header>
 
-    <!-- menu com os elementos da página -->
-    <nav class="navbar-menu">
-        <a class="nav-indice" id="a-inicio" href="../index.php">Início</a>
-        <a class="nav-indice" id="a-entrar" href="login.php">Entrar</a>
-        <a class="nav-indice" id="a-registrar" href="registrar.php">Registrar-se</a>
-    </nav>
+        <!-- menu com os elementos da página -->
+        <nav class="navbar-menu">
+            <a class="nav-indice" id="a-inicio" href="../index.php">Início</a>
+            <a class="nav-indice" id="a-entrar" href="login.php">Entrar</a>
+            <a class="nav-indice" id="a-registrar" href="registrar.php">Registrar-se</a>
+        </nav>
+    </main>
 
+    <main class="main-login">
+
+        <form class="form-login" method="GET" action="">
+            <label for="txtEmail">E-mail:</label>
+            <input class="txtEmail" id="txtEmail" type="text">
+            <label for="txtSenha">Senha:</label>
+            <input class="txtSenha" id="txtSenha" type="password">
+            <input class="btnEnviar" type="submit" value="Enviar">
+        </form>
+    </main>
 </body>
 <footer>
     <?php require_once('footer.php'); ?>

@@ -11,7 +11,7 @@
             while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
                 echo '<section class="box-chamado">';
                 echo '<tr><center>';
-                echo '<td> chamadoID:' . $row["idChamado"] . '</td><br>';
+                echo '<td> Chamado:' . $row["idChamado"] . '</td><br>';
                 echo '<td>Título:<br>' . $row["titulo"] . '</td><br>';
                 echo '<figure>';
                 echo '<td>Evidência:<br>' . '<img src="' . $row["evidencia"] . '" alt="teste" width="100px">' . '</td><br>';
