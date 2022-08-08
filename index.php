@@ -12,6 +12,7 @@ require('Controller/conexao.php');
 <head>
     <meta charset="UTF-8">
     <title>Início - helpdesk</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.ico">
     <meta name="description" content="Site para abertura de chamados Helpdesk">
     <meta name="keywords" content="chamados, helpdesk, suporte técnico">
     <meta name="author" content="João Paulo">
